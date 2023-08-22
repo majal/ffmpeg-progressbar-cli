@@ -3,7 +3,7 @@
   "version": "1.5.0",
   "description": "A colored progress bar for FFmpeg. Simply use `ffmpeg-bar` instead of `ffmpeg`.",
   "license": "MIT",
-  "homepage": "https://github.com/sidneys/ffmpeg-progressbar-cli",
+  "homepage": "https://github.com/majal/ffmpeg-progressbar-cli",
   "author": {
     "name": "sidneys",
     "email": "sidneys.github.io@outlook.com",
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sidneys/ffmpeg-progressbar-cli.git"
+    "url": "https://github.com/majal/ffmpeg-progressbar-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/sidneys/ffmpeg-progressbar-cli/issues"
+    "url": "https://github.com/majal/ffmpeg-progressbar-cli/issues"
   },
   "engines": {
     "node": ">=8.11.3"
