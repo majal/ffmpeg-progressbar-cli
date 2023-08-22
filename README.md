@@ -20,10 +20,31 @@
 
 ## <a name="installation"/></a> Installation
 
+Clone repository, either:
 ```bash
-$ npm install --global ffmpeg-progressbar-cli
+$ gh repo clone majal/ffmpeg-progressbar-cli
+```
+or
+```bash
+$ git clone https://github.com/majal/ffmpeg-progressbar-cli.git
 ```
 
+Install using npm:
+```bash
+$ cd ffmpeg-progressbar-cli
+$ npm install
+```
+Note security audits, apply fixes if necessary.
+
+Run using:
+```bash
+$ ./lib/main.js
+```
+
+To add the alias `ffmpeg-bar`:
+```bash
+ln -s ./lib/main.js "${HOME}/.local/bin/ffmpeg-bar"
+```
 
 ## <a name="usage"/></a> Usage
 
@@ -102,4 +123,4 @@ MIT
 ## <a name="author"/></a> Author
 
 [sidneys](http://sidneys.github.io) 2018
-
+2023 - Forked and updated by [Majal](https://github.com/majal) to use in his sign language projects
