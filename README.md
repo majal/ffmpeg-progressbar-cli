@@ -123,4 +123,5 @@ MIT
 ## <a name="author"/></a> Author
 
 [sidneys](http://sidneys.github.io) 2018
+
 2023 - Forked and updated by [Majal](https://github.com/majal) to use in his sign language projects
