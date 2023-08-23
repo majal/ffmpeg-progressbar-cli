@@ -1,7 +1,7 @@
 # ffmpeg-progressbar-cli [![npm](https://img.shields.io/npm/v/ffmpeg-progressbar-cli.svg?style=flat-square)](https://npmjs.com/package/ffmpeg-progressbar-cli)
 
 <p align="center">
-  <img width="100%" src="https://rawgit.com/sidneys/ffmpeg-progressbar-cli/master/resources/screencasts/screencast-2.gif"/><br>
+  <img width="100%" src="https://raw.githubusercontent.com/majal/ffmpeg-progressbar-cli/master/resources/screencasts/screencast-2.gif"/><br>
   <b>ffmpeg-progressbar-cli is a <span style="color: red;">c</span><span style="color: orange;">o</span><span style="color: yellow;">l</span><span style="color: green;">o</span><span style="color: blue;">r</span><span style="color: indigo;">e</span><span style="color: violet;">d</span> progress bar for <a href="https://ffmpeg.org">FFmpeg</a>.</b><br>
   Simply use <code>ffmpeg-bar</code> instead of <code>ffmpeg</code>.<br><br>
 </p>
@@ -22,24 +22,24 @@
 
 Clone repository, either:
 ```bash
-$ gh repo clone majal/ffmpeg-progressbar-cli
+gh repo clone majal/ffmpeg-progressbar-cli
 ```
 or
 ```bash
-$ git clone https://github.com/majal/ffmpeg-progressbar-cli.git
+git clone https://github.com/majal/ffmpeg-progressbar-cli.git
 ```
 
 Install using npm:
 ```bash
-$ cd ffmpeg-progressbar-cli
-$ npm update
-$ npm install
+cd ffmpeg-progressbar-cli
+npm update
+npm install
 ```
 Note security audits, apply fixes if necessary.
 
 Run using:
 ```bash
-$ ./lib/main.js
+./lib/main.js
 ```
 
 To add the alias `ffmpeg-bar`:
@@ -60,15 +60,15 @@ As long as no errors are encountered, the output of  `ffmpeg-bar` will   consist
 ###### Examples
 
 ```bash
-$> ffmpeg-bar -i input.mp4 output.avi
+ffmpeg-bar -i input.mp4 output.avi
 ```
 
 ```bash
-$> ffmpeg-bar -i input.avi -b:v 64k -bufsize 64k output.avi
+ffmpeg-bar -i input.avi -b:v 64k -bufsize 64k output.avi
 ```
 
 ```bash
-$> ffmpeg-bar -i in.mkv -map_metadata:s:a 0:g out.mkv
+ffmpeg-bar -i in.mkv -map_metadata:s:a 0:g out.mkv
 ```
 
 
@@ -83,7 +83,7 @@ The maximum number of characters of the filename label displayed next to the pro
 ###### Example
 
 ```bash
-$> BAR_FILENAME_LENGTH=7 ffmpeg-bar -i in.mp4 output.mp4
+BAR_FILENAME_LENGTH=7 ffmpeg-bar -i in.mp4 output.mp4
 ```
 
 ##### `BAR_BEAM_RATIO `
@@ -93,7 +93,7 @@ The share of (available) horizontal display real estate the progress bar beam sh
 ###### Example
 
 ```bash
-$> BAR_BAR_SIZE_RATIO=0.5 ffmpeg-bar -i in.mp4 output.mp4
+BAR_BAR_SIZE_RATIO=0.5 ffmpeg-bar -i in.mp4 output.mp4
 ```
 
 ## <a name="requirements"/></a> Requirements
@@ -108,12 +108,12 @@ Tested on
 
  - macOS 10.13, 10.14 Beta
  - Windows 10 1803
- - Ubuntu 18.04
+ - Ubuntu 22.04
 
 
 ## <a name="contribute"/></a> Contribute ![Contributors Wanted](https://img.shields.io/badge/contributions-wanted-red.svg?style=flat-square)
 
-Read the contribution [documentation](https://github.com/sidneys/ffmpeg-progressbar-cli/blob/master/CONTRIBUTING.md).
+Read the contribution [documentation](https://github.com/majal/ffmpeg-progressbar-cli/blob/master/CONTRIBUTING.md).
 
 
 ## <a name="license"/></a> License
