@@ -32,6 +32,7 @@ $ git clone https://github.com/majal/ffmpeg-progressbar-cli.git
 Install using npm:
 ```bash
 $ cd ffmpeg-progressbar-cli
+$ npm update
 $ npm install
 ```
 Note security audits, apply fixes if necessary.
