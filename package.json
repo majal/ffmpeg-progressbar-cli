@@ -37,21 +37,21 @@
   ],
   "preferGlobal": true,
   "dependencies": {
-    "@sidneys/cli-progress": "^2.2.0",
-    "app-root-path": "^3.1.0",
+    "cli-progress": ">=3.12.0",
+    "app-root-path": ">=3.1.0",
     "chalk": "^2.4.1",
-    "ellipsize": "^0.1.0",
-    "ini": "^1.3.5",
-    "moment": "^2.22.2",
-    "moment-duration-format": "^2.2.2",
+    "ellipsize": ">=0.1.0",
+    "ini": ">=1.3.5",
+    "moment": ">=2.22.2",
+    "moment-duration-format": ">=2.2.2",
     "string-width": "^2.1.1",
-    "which": "^3.0.1",
-    "window-size": "^1.1.1"
+    "which": ">=3.0.1",
+    "window-size": ">=1.1.1"
   },
   "devDependencies": {
-    "docdash": "^1.0.0",
-    "eslint": "^5.9.0",
-    "jsdoc": "^4.0.2"
+    "docdash": ">=1.0.0",
+    "eslint": ">=5.9.0",
+    "jsdoc": ">=4.0.2"
   },
   "main": "./lib/main.js",
   "bin": {
